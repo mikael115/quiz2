@@ -86,6 +86,7 @@ const clickHandler = (e) => {
     setupQuiz();
   }else{
     window.alert('終了！あなたの正解率は' + score + '/' + quizLength + 'です！');
+    window.location.href = 'https://mikael115.github.io/quiz2-answers/';
   }
 };
 
